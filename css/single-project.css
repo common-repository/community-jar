@@ -1,0 +1,88 @@
+/* Use the following CSS code if you want to have a class per icon */
+.alert {
+  padding: 5px;
+  display: none;
+}
+.cj-submit-error {
+  background-color: Red;
+  color: white;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+}
+.cj-alert-error {
+  background-color: Red;
+  color: white;
+}
+.cj-alert-success {
+  background-color: green;
+  color: white;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+}
+#volunteer-sign-up input[type="text"] {
+  width: 97%;
+}
+textarea#volunteer-comments {
+  width: 97%;
+}
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.cj-project-info {
+  float: left;
+}
+.cj-project-info h3 {
+  margin: 0px !important;
+}
+.cj-jar-counter {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.icon-communityjar {
+  font-size: 100px;
+  color: #e56d4a;
+  position: static;
+}
+.cj-jar-counter .cj-count {
+  text-align: center;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  color: #e56d4a;
+  font-weight: bold;
+  font-size: 46px !important;
+}
+.cj-project-icon h5 {
+  text-align: center;
+  left: -2px;
+  top: 20px;
+  position: relative;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot');
+  src: url('fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('fonts/icomoon.svg#icomoon') format('svg'), url('fonts/icomoon.woff') format('woff'), url('fonts/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Use the following CSS code if you want to have a class per icon */
+.icon-communityjar {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-communityjar:before {
+  content: "\e000";
+}
